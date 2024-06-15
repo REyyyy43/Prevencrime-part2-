@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+p {
+    line-height: 1.6;
+    color: #666;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.team-member {
+    flex: 1 1 200px;
+    padding: 20px;
+    background-color: #e4e4e4;
+    border-radius: 8px;
+    text-align: center;
+}
+.team-member img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+.team-member h3 {
+    margin-top: 10px;
+    color: #333;
+}
+.team-member p {
+    color: #777;
+}
